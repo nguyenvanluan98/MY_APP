@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,400;0,600;1,300&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'ExtraLight', monospace;
+    transition: .3S ease;
+
+}
+html{
+    font-size: 90%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.icon{
+    font-size: small;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #005540;
+    padding: .8rem 1rem;
+    color: aqua;
+}
+.btn .icon{
+    margin-left: .5rem;
+
+}
+.btn:hover{
+    background: coral;
+    color: aliceblue;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+.container{
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #659DBD;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px #005540;
+}
