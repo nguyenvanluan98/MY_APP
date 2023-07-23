@@ -1,0 +1,35 @@
+.topSection{
+
+}
+.headerSection{
+    justify-content: space-between;
+}
+h1{
+    font-size: 25px;
+    color: #00CED1;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+    color: #40E0D0;
+    font-weight: 500;
+}
+.searchBar{
+    padding: 1rem 2rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    gap: 1rem;
+    box-shadow: 0 2px 4px #FFFFFF;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.icon{
+    color: #B8B8B8;
+}
+:hover .icon{
+    color: #505050;
+    cursor: pointer;
+}

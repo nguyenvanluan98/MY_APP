@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family:'ExtraLight', monospace;
-    transition: .3S ease;
+    transition: .3s ease;
 
 }
 html{
@@ -14,6 +14,7 @@ html{
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
 }
@@ -40,15 +41,15 @@ img{
     border-radius: 8px;
     box-shadow: 0 2px 4px #005540;
     padding: .8rem 1rem;
-    color: aqua;
+    color: rgb(16, 17, 17);
 }
 .btn .icon{
     margin-left: .5rem;
 
 }
 .btn:hover{
-    background: coral;
-    color: aliceblue;
+    background: rgb(14, 170, 209);
+    color: rgb(240, 251, 255);
 }
 body{
     display: flex;
@@ -64,8 +65,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #659DBD;
+    background-color: #E0FFFF;
     overflow: hidden;
     border-radius: 1rem;
-    box-shadow: 2px 2px 8px #005540;
+    box-shadow: 2px 2px 8px #AFEEEE;
+}
+body::-webkit-scrollbar{
+    display: none;
+
 }

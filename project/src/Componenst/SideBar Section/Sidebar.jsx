@@ -7,6 +7,7 @@ import {MdDeliveryDining,MdKebabDining} from 'react-icons/md'
 import {GiSettingsKnobs} from 'react-icons/gi'
 import{AiFillPieChart,AiFillContacts} from 'react-icons/ai'
 import{BiTrendingUp} from 'react-icons/bi'
+import{BsQuestionCircle} from 'react-icons/bs'
 
 
 
@@ -15,7 +16,7 @@ const Sidebar = ()=> {
         <div className="sideBar grid">
             <div className="logoDiv flex">
                 <img src={Logo} alt="Image Name"/>
-                <h2>MY LIE.</h2>
+                <h2>MY LIE</h2>
             </div>
 
             <div className="meniDiv">
@@ -102,6 +103,16 @@ const Sidebar = ()=> {
                     </li>
                     
                 </ul>
+            </div>
+            <div className="sideBarCard">
+                <BsQuestionCircle className="icon"/>
+                <div className="carContent">
+                    <div className="circle1"></div>
+                    <div className="circle2"></div>
+                    <h3>Help Center</h3>
+                    <p>Having trouble in MY LIE, please contact us</p>
+                    <button className="btn">Go to help center</button>
+                </div>
             </div>
         </div>
     )
