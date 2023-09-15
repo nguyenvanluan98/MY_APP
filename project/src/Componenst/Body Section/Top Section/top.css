@@ -28,8 +28,22 @@ input{
 }
 .icon{
     color: #B8B8B8;
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px #40E0D0;
+    color: wheat;
 }
 :hover .icon{
     color: #505050;
     cursor: pointer;
+}
+.admin{
+    gap: 1rem;
+}
+.adminImage{
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 2.5rem;
+    overflow: hidden;
 }

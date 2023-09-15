@@ -21,7 +21,10 @@ const Top = () => {
                 <div className="admin flex">
                     <AiOutlineMessage className='icon'/>
                     <AiOutlineNotification className='icon'/>
+                    <div className="adminImage">
                     <img src={img} alt="admin Image" />
+                    </div>
+                   
                 </div>
             </div>
         </div>
