@@ -4,6 +4,7 @@ import { BsSearch } from "react-icons/bs";
 import { AiOutlineMessage,AiOutlineNotification } from "react-icons/ai";
 
 import img from '../Top Section/Assetss/user.png'
+import video from'../Top Section/Assetss/Br.mp4'
 
 
 const Top = () => {
@@ -25,6 +26,19 @@ const Top = () => {
                     <img src={img} alt="admin Image" />
                     </div>
                    
+                </div>
+            </div>
+            <div className="cardSection flex">
+                <div className="rightCard flex">
+                    <h1>Hello</h1>
+                    <p> chào bạn đên với trang của tôi</p>
+                    <div className="buttons flex">
+                        <button className="btn">Explore More</button>
+                        <button className="btn transparent">Top seller</button>
+                    </div>
+                    <div className="videoDiv">
+                        <video src={video} autoPlay loop muted></video>
+                    </div>
                 </div>
             </div>
         </div>
